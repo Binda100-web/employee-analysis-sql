@@ -1,0 +1,32 @@
+You're part of a DevOps team preparing deployment scripts for staging environments. Each script must be:
+
+Owned and writable only by you
+written ,Executable by your team (group)
+Inaccessible to others on the system
+Additionally, you must demonstrate what happens when permissions are configured incorrectly — and how to fix them.
+
+🛠 Task
+Create a new directory to store deployment scripts.
+Write a script named deploy.sh that simulates a deployment process.
+Configure permissions to meet the scenario's security requirements.
+Deliberately apply insecure permissions (e.g., full access to others), then correct them.
+Capture ls -l outputs at each significant state change.
+⚠️ Do not reuse test_script.sh. Start fresh and apply your knowledge independently.
+
+What to Submit
+deploy.sh in your repo
+ls -l output screenshots showing:
+Initial script permissions
+After secure configuration
+After insecure permissions applied (e.g., 777)
+After secure permissions restored
+Completed reflection responses from Part 5 (in the same file or new one)
+GitHub push with all updates
+Notes
+
+Do not repeat answers from the previous task.
+Use this task to prove you understand:
+Ownership vs. group vs. others
+Numeric vs. symbolic modes
+Practical risks of over-permissive settings
+Think like an engineer preparing for a production deployment.
